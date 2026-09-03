@@ -1,0 +1,47 @@
+:root
+{
+    --bg-color: #f5e8e2;
+    --fg-color: #8a1e23
+}
+
+/* FONTS */
+@font-face {
+    font-family: NebulaSans;
+    src: url(../assets/fonts/NebulaSans-Medium.ttf);
+}
+
+body
+{
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+a
+{
+    color: var(--fg-color);
+}
+
+.jumbo_title
+{
+    text-align: center;
+    font-size: 4em;
+}
+
+.main_subheader
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+.jumbo_image
+{
+    width: 720px;
+}
+
+.paragraph
+{
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: NebulaSans;
+}
