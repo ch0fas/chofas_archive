@@ -10,6 +10,11 @@
     src: url(../assets/fonts/NebulaSans-Medium.ttf);
 }
 
+@font-face {
+    font-family: Aleo;
+    src: url(../assets/fonts/Aleo-Medium.otf);
+}
+
 body
 {
     background-color: var(--bg-color);
@@ -25,12 +30,14 @@ a
 {
     text-align: center;
     font-size: 4em;
+    font-family: Aleo;
 }
 
 .main_subheader
 {
     font-size: 2em;
     text-align: center;
+    font-family: Aleo;
 }
 
 .jumbo_image

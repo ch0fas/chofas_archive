@@ -2,4 +2,19 @@
 {
     display: flex;
     justify-content: space-evenly;
+    height: 5vh;
+    flex-wrap: wrap;
+}
+
+.nav_bar_link
+{
+    flex-direction: column;
+}
+
+@media screen and (width <= 720px) 
+{
+    .jumbo_title
+    {
+        font-size: 1.25em;
+    }    
 }
