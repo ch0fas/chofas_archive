@@ -1,0 +1,47 @@
+#mr_nav_bar {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Aleo;
+}
+
+#mr_search_parameters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.param_item {
+    width: 100%;
+    text-align: center;
+}
+
+.param_item input {
+    width: 80%;
+}
+
+#album_table
+{
+    width: 80vw;
+}
+
+th
+{
+    width: 20vw;
+    font-family: Aleo;
+}
+
+tbody
+{
+    font-family: NebulaSans;
+}
+
+table, th, td
+{
+    text-align: center;
+    border: 1px solid;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}

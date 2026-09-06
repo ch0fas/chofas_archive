@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/music_registry.css">
+    <script src="https://unpkg.com/papaparse@5.5.3/papaparse.min.js"></script>
+    <title>Music Registry</title>
+</head>
+<body>
+    <div id="mr_nav_bar">
+        <a href="../index.html">Back To Main Page</a>
+    </div>
+    <h1 class="jumbo_title">Music Registry</h1>
+    <p class="paragraph">
+        (Esta página no tiene equivalente en Español porque me daba hueva tener que ajustar todo el JS en ambas, una disculpa :nod)<br><br>
+        Since august of 2022 I have been taking note of every single new album I've listened to, (mostly) excluding EPs. Today, that list is well over 250 albums long and it can be seen right here.<br><br>
+        To facilitate looking for certain albums I've included many different filters. Feel free to play around with them below.
+    </p>
+    <div id="mr_search_parameters">
+        <div class="param_item">
+            <p class="paragraph">Album Name</p>
+            <input type="text" id="album_name_filter">
+        </div>
+        <div class="param_item">
+            <p class="paragraph">Artist/Group</p>
+            <input type="text" id="artist_name_filter">
+        </div>
+        <div class="param_item">
+            <p class="paragraph">Album Number</p>
+            <input type="number" id="album_number_filter">
+        </div>
+        <div class="param_item">
+            <p class="paragraph">Year Of Release</p>
+            <input type="number" id="year_release_filter">
+        </div>
+        <div class="param_item">
+            <p class="paragraph">Listening Day</p>
+            <input type="number" id="listening_day_filter" min="1" max="31">
+        </div>
+        <div class="param_item">
+            <p class="paragraph">Listening Month</p>
+            <input type="number" id="listening_month_filter" min="1" max="12">
+        </div>
+        <div class="param_item">
+            <p class="paragraph">Listening Year</p>
+            <input type="number" id="listening_year_filter">
+        </div>
+        <div class="param_item">
+            <p class="paragraph">Listening Day Of Week</p>
+            <input type="number" id="listening_weekday_filter" min="0" max="6">
+        </div>
+    </div>
+    <div id="album_table_div">
+        <table id="album_table">
+            <thead>
+                <tr>
+                    <th>Album Number</th>
+                    <th>Name</th>
+                    <th>Artist/Group</th>
+                    <th>Listening Date</th>
+                    <th>Year Of Release</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <h2 class="main_subheader" id="amnt"></h1>
+
+        <script src="../js/music_registry.js"></script>
+</body>
+</html>
