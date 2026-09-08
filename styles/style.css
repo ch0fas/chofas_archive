@@ -1,7 +1,10 @@
 :root
 {
     --bg-color: #f5e8e2;
-    --fg-color: #8a1e23
+    --fg-color: #8a1e23;
+    --quote-bg-color: #f5f5f4;
+    --main-font: "NebulaSans";
+    --header-font: "Aleo";
 }
 
 /* FONTS */
@@ -30,14 +33,14 @@ a
 {
     text-align: center;
     font-size: 4em;
-    font-family: Aleo;
+    font-family: var(--header-font);
 }
 
 .main_subheader
 {
     font-size: 2em;
     text-align: center;
-    font-family: Aleo;
+    font-family: var(--header-font);
 }
 
 .jumbo_image
@@ -50,5 +53,5 @@ a
     font-size: 1.5em;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: NebulaSans;
+    font-family: var(--main-font);
 }

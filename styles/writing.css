@@ -3,3 +3,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.article_block
+{
+    text-align: center;
+}
