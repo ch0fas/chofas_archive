@@ -57,3 +57,27 @@
 {
     font-weight: bold;
 }
+
+@media screen and (width <= 720px) 
+{
+    .paragraph
+    {
+        font-size: 0.75em;
+    }
+    
+    .main_content
+    {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .image_footnote
+    {
+        font-size: 0.75em;
+    }
+
+    .quote
+    {
+        font-size: 0.75em;
+    }
+}
