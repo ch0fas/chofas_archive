@@ -33,7 +33,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
 }
 
 .image_footnote
@@ -80,4 +80,9 @@
     {
         font-size: 0.75em;
     }
+}
+
+.footnote_indicator
+{
+    font-size: 0.5em;
 }
