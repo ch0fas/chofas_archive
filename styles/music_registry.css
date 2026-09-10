@@ -1,7 +1,7 @@
 #mr_nav_bar {
     display: flex;
     justify-content: space-evenly;
-    font-family: Aleo;
+    font-family: var(--main-font);
 }
 
 #mr_search_parameters {
@@ -29,12 +29,12 @@
 th
 {
     width: 20vw;
-    font-family: Aleo;
+    font-family: var(--main-font);
 }
 
 tbody
 {
-    font-family: NebulaSans;
+    font-family: var(--main-font);
 }
 
 table, th, td

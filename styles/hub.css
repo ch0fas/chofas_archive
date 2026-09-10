@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     height: 5vh;
     flex-wrap: wrap;
-    font-family: Aleo;
+    font-family: var(--main-font);
 }
 
 .nav_bar_link {
@@ -45,7 +45,7 @@
 
 .item_name {
     text-align: center;
-    font-family: Aleo;
+    font-family: var(--main-font);
     font-size: clamp(1em, 2vw, 2em);
 }
 
