@@ -1,0 +1,42 @@
+#r_nav_bar
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--main-font);
+}
+
+.ramble_title
+{
+    font-size: 2em;
+    font-family: var(--header-font);   
+    padding-left: 10%;
+}
+
+.main_ramble_content
+{
+    break-inside: avoid;
+    align-items: start;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.ramble_box
+{
+    border: 2px solid var(--fg-color);
+    margin-top: 2vh;
+    box-shadow: 0px 0px 10px black;
+}
+
+.ramble_image
+{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ramble_footnote
+{
+    font-size: 1em;
+    text-align: center;
+}
