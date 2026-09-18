@@ -1,0 +1,35 @@
+.taste_nav_bar
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--main-font);
+}
+
+.taste_header_1
+{
+    font-size: 1.75em;
+    font-family: var(--header-font);
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.taste_section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+}
+
+.taste_item
+{
+    border: 2px solid var(--fg-color);
+}
+
+@media screen and (width <= 720px)
+{
+    .taste_section
+    {
+        grid-template-columns: 1fr;
+    }
+}
