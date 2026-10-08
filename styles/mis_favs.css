@@ -1,0 +1,17 @@
+.favs_nav_bar
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--main-font);
+}
+
+.mis_favs_grid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.mis_favs_class
+{
+    border: 1px solid var(--fg-color);
+}
