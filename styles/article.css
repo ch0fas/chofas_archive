@@ -3,12 +3,14 @@
     display: flex;
     justify-content: space-evenly;
     font-family: var(--main-font);
+    font-size: 1.5em;
 }
 
 .byline
 {
     text-align: center;
     font-family: var(--main-font);
+    font-size: 1.5em;
 }
 
 .main_content
@@ -41,7 +43,7 @@
 {
     text-align: center;
     font-family: var(--main-font);
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .quote
